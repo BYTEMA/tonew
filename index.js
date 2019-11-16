@@ -27,11 +27,11 @@ fs.readdir("./commands/", (err, files) => {
 bot.on("ready", async() => {
     console.log(`${bot.user.username} is online!`);
     //if you want the bot change back its name everytime
-    bot.user.setUsername("BOT Chen");
+    bot.user.setUsername("Tomori");
 
     //was making joke on a friend
     //bot.user.setActivity("Chan Ho is Gay",{type: "STREAMING"});
-    bot.user.setActivity("HONK HONK! || .help",{type: "STREAMING"});
+    bot.user.setActivity("Tomori! || .help",{type: "STREAMING"});
 });
 
 
